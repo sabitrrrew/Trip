@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper {
+    width: 1440px;
+    height: 1330px;
+    margin: 0 auto;
+}
+.home {
+    height: 1024px;
+    background-image: url('/img/mountains-snow.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home_inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.home_inner2 {
+    font-size: 130px;
+    font-weight: 600;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    column-gap: 370px;
+    flex-wrap: wrap;
+    color: #f3f3f3;
+}
+.string {
+    position: relative;
+    border: 2px solid lightgreen;
+    padding: 10px;
+    left: 840px;
+    top: 97px;
+    width: 350px;
+    height: 70px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.string2 {
+    border: 2px solid lightgreen;
+    padding: 10px;
+    width: 456px;
+    border-radius: 16px;
+    height: 72px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+    right: 383px;
+}
+.string1 {
+    width: 436px;
+    height: 72px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+    top: 285px;
+    right: 310px;
+    padding-left: 14px;
+    border: 2px solid lightgreen;
+    padding: 10px;
+    padding-bottom: 83px;
+    border-radius: 16px;
+}
+.main_section {
+    height: 2177px;
+    background-color: #0B021E;
+}
+.text {
+    padding-top: 60px;
+    padding-left: 120px;
+    width: 389px;
+    color: #f3f3f3;
+    height: 115px;
+    font-size: 130px;
+    font-weight: 800;
+}
+.text1 {
+    padding-top: 90px;
+    padding-left: 330px;
+    color: #f3f3f3;
+    width: 901px;
+    font-size: 130px;
+    font-weight: 800;
+}
+.one {
+    width: 488px;
+    height: 450px;
+}
+.two {
+    width: 590px;
+    height: 450px;
+}
+.inner_main {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.text2 {
+    width: 470px;
+    height: 448px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    text-align: justify;
+    color: #f3f3f3;
+    margin-top: 40px;
+    margin-left: 105px;
+}
+.text3 {
+    width: 590px;
+    height: 224px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    color: #f3f3f3;
+    line-height: 32px;
+    margin-top: -448px;
+    margin-left: 763px;
+}
+.string4 {
+    width: 366px;
+    height: 28px;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    color: #f3f3f3;
+    position: relative;
+    top: 400px;
+    left: 500px;
+}
+.text4 {
+    width: 1187px;
+    height: 308px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #f3f3f3;
+    margin-top: 465px;
+    margin-left: 135px;
+    text-align: justify;
+}
+.second_section {
+    height: 2523px;
+    background-image: url('/img/tripPing.png');
+}
+.third_section {
+    background-color: #fff;
+    height: 1949px;
+    background-image: url('/img/high-mountain.jpg');
+    /* background-color: #133B6B; */
+    background-position: center;
+    /* filter: blur(1px); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.string5 {
+    font-size: 130px;
+    font-weight: 800;
+    color: #f3f3f3;
+    position: relative;
+    left: 125px;
+    top: 35px;
+}
+.string6 {
+    font-size: 130px;
+    font-weight: 800;
+    color: #f3f3f3;
+    position: relative;
+    left: 347px;
+}
+.photo {
+    width: 1200px;
+    height: 857px;
+    margin: 0px auto;
+    padding-top: 90px;
+}
+.string7 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #f3f3f3;
+    position: relative;
+    left: 550px;
+    top: -700px;
+}
+.text5 {
+    width: 1200px;
+    height: 252px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #fff;
+    left: 160px;
+    position: relative;
+    top: -650px;
+    text-align: justify;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+h2 {
+    color: #f3f3f3;
+    font-family: "Montserrat", sans-serif;
+}
+p {
+    color: #f3f3f3;
+    font-family: "Montserrat", sans-serif; 
+    font-size: 17px;
+    padding-top: 10px;
+}
+.fourth_section {
+    height: 1632px;
+    background-image: url(/img/WatetWall.png);
+}
+.fifth_section {
+    height: 1794px;
+    background-image: url(/img/dolomites.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 93%;
+}
+.twin {
+    font-size: 130px;
+    font-weight: 800;
+    line-height: 24px;
+    color: #f3f3f3;
+    width: 901px;
+    height: 115px;
+    position: relative;
+    left: 85px;
+    top: 95px;
+}
+.twin1 {
+    font-size: 130px;
+    font-weight: 800;
+    line-height: 24px;
+    color: #f3f3f3;
+    width: 901px;
+    height: 115px;
+    position: relative;
+    left: 180px;
+    top: 165px;
+}
+.twin2 {
+    font-size: 130px;
+    font-weight: 800;
+    line-height: 24px;
+    color: #f3f3f3;
+    width: 901px;
+    height: 115px;
+    position: relative;
+    left: 323px;
+    top: 260px;
+}
+.photo1 {
+    width: 590px;
+    height: 498px;
+    position: relative;
+    top: 445px;
+    left: 750px;
+}
+.text6 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #133B6B;
+    width: 570px;
+    height: 264px;
+    margin-left: 70px;
+    text-align: justify;
+}
+.photo2 {
+    width: 590px;
+    height: 498px;
+    position: relative;
+    top: 255px;
+    left: 90px;
+}
+.text7 {
+    width: 488px;
+    height: 264px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #133B6B;
+    margin-left: 785px;
+    margin-top: -185px;
+    text-align: justify;
+}
+.sixth_section {
+    height: 1445px;
+    background-image: url(/img/People.png);
+}
+.footer {
+    height: 490px;
+    background-color: #0A142F;
+}
+.icon {
+    padding-top: 100px;
+    padding-left: 200px;
+}
+.icon1 {
+    position: relative;
+    top: 50px;
+    left: 750px;
+}
+.text8 {
+    width: 90px;
+    height: 28px;
+    font-family: TT Commons;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f3f3f3;
+}
+.text9 {
+    width: 51px;
+    height: 18px;
+    font-family: TT Commons;
+    font-size: 16px;
+    font-weight: 400;
+    color: #f3f3f3;
+    position: relative;
+    right: 98px;
+    top: 70px;
+}
+.text10 {
+    width: 51px;
+    height: 18px;
+    font-family: TT Commons;
+    font-size: 16px;
+    font-weight: 400;
+    color: #f3f3f3;
+    position: relative;
+    top: 140px;
+    right: 153px;
+}
+.num {
+    color: #f3f3f3;
+}
+.lenght {
+    width: 1000px;
+    border: 1px solid #f3f3f3;
+    position: relative;
+    top: 200px;
+    left: 220px;
+}
+.photo3 {
+    padding-top: 550px;
+    padding-left: 40px;
+}
